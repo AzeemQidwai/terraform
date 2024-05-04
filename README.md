@@ -2,6 +2,9 @@
 
 This repository contains Terraform code to provision infrastructure on AWS including an Ubuntu EC2 instance and two RDS instances (MySQL and PostgreSQL).
 
+## :desktop_computer: Tutorial
+Find complete tutorial on how to use this repository in the following article: [Provisioning AWS Infrastructure with Terraform](https://azeemahmed.notion.site/Creating-AWS-EC2-RDB-instance-using-Terraform-a8b20bc5626a4013a0bb3228c5e4e9a1?pvs=4)
+
 ## :memo: Prerequisites
 
 Before you begin, ensure you have the following:
