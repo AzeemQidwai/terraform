@@ -2,7 +2,7 @@
 
 This repository contains Terraform code to provision infrastructure on AWS including an Ubuntu EC2 instance and two RDS instances (MySQL and PostgreSQL).
 
-## Prerequisites
+## :memo: Prerequisites
 
 Before you begin, ensure you have the following:
 
@@ -10,7 +10,7 @@ Before you begin, ensure you have the following:
 - An AWS account with appropriate permissions.
 - AWS CLI installed and configured on your local machine.
 
-## AWS Access Key Generation
+## :key: AWS Access Key Generation
 
 To generate access keys for AWS, follow these steps:
 
@@ -22,7 +22,7 @@ To generate access keys for AWS, follow these steps:
 6. Under "Access keys", click on "Create access key".
 7. Save the generated Access Key ID and Secret Access Key securely.
 
-## AWS Configuration
+## :gear: AWS Configuration
 
 After generating the access keys, configure your AWS CLI with the following steps:
 
@@ -42,7 +42,7 @@ Default region name [None]: us-east-1
 Default output format [None]: json
 ```
 
-## Usage
+## :chart_with_upwards_trend: Usage
 
 1. Clone this repository:
     ```bash
@@ -64,13 +64,13 @@ Default output format [None]: json
     ```bash
     terraform apply -auto-approve
     ```
-## Cleanup
+## :broom: Cleanup
 
 When you're done experimenting, clean up the resources to avoid incurring charges:
 ```bash
 terraform destroy -auto-approve
 ```
 
-## Note
+## :warning: Note
 
 Ensure that you review all the Terraform configurations before applying them to your AWS account. Provisioned resources may incur costs, and Terraform will create and manage resources as defined in the configuration files.
